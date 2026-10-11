@@ -18,7 +18,7 @@ public class StreamTasks {
 
     public static List<String> upperCaseWithPrefix(List<String> strings) {
         return strings.stream()
-                .map(s -> "new_" + s.toUpperCase())
+                .map(s -> "new" + s.toUpperCase())
                 .toList();
     }
 
